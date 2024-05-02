@@ -1,0 +1,23 @@
+@media (max-width:930px) {
+    .about-section .about-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-section .about-container .same-col{
+        width: 100%;
+        align-items: center;
+    }
+    
+        .about-section .about-container .same-col span{
+            text-align: center;
+        }
+    
+        .about-section .about-container .same-col h3{
+            text-align: center;
+        }
+    
+        .about-section .about-container .same-col p{
+            text-align: center;
+        }
+}

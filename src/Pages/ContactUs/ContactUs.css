@@ -1,0 +1,161 @@
+.contact-section {
+    width: 100%;
+}
+
+.contact-section .bg {
+    width: 100%;
+    height: 400px;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-section .contact-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section .contact-container .first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-section .contact-container .first .left {
+    width: 47%;
+}
+
+.contact-section .contact-container .first .right {
+    width: 47%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section .contact-container .first .right h2 {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.contact-section .contact-container .first .right p span {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.contact-section .contact-container .first .right p {
+    font-size: 15px;
+}
+
+@media (max-width:700px) {
+
+    .contact-section .contact-container {
+        padding: 40px 20px;
+    }
+
+    .contact-section .contact-container .first {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-section .contact-container .first .left {
+        width: 100%;
+    }
+
+    .contact-section .contact-container .first .right {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+.contact-section .contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section .contact-container form .same-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-section .contact-container form .same-field .left {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-section .contact-container form .same-field .left label {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.contact-section .contact-container form .same-field .left input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #F5F8FA;
+    border: 1px solid rgb(186, 186, 186);
+    outline: none;
+    padding-left: 10px;
+}
+
+.contact-section .contact-container form .same-field .right {
+    width: 48%;
+}
+
+.contact-section .contact-container form .same-field .right label {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.contact-section .contact-container form .same-field .right input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #F5F8FA;
+    border: 1px solid rgb(186, 186, 186);
+    outline: none;
+    padding-left: 10px;
+}
+
+.contact-section .contact-container form .formessage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.contact-section .contact-container form .formessage label {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.contact-section .contact-container form .formessage textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 4px;
+    background-color: #F5F8FA;
+    border: 1px solid rgb(186, 186, 186);
+    outline: none;
+    padding-left: 10px;
+}
+
+.contact-section .contact-container form .sendbtn{
+    padding: 10px;
+    background-color: #FAE0EE;
+    font-weight: 700;
+}

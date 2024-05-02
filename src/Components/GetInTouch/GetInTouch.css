@@ -1,0 +1,61 @@
+.GetInTouch-section{
+    width: 100%;
+    background-color: #3B3B3B;
+}
+
+.GetInTouch-section .GetInTouch-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 15px;
+    color: #FABFDF;
+}
+
+.GetInTouch-section .GetInTouch-container h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.GetInTouch-section .GetInTouch-container p{
+    text-align: center;
+}
+
+.GetInTouch-section .GetInTouch-container .input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 37px;
+}
+
+.GetInTouch-section .GetInTouch-container .input-box input{
+    width: 70%;
+    height: 100%;
+    background-color: #3B3B3B;
+    border: 1px solid #FAE0EE;
+    padding-left: 5px;
+    color: #FABFDF;
+}
+
+.GetInTouch-section .GetInTouch-container .input-box input::placeholder{
+    color: #FABFDF;
+}
+
+.GetInTouch-section .GetInTouch-container .input-box button{
+    width: 30%;
+    font-weight: 700;
+    height: 100%;
+    background-color: #FAE0EE;
+    color: black;
+    border: none;
+
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

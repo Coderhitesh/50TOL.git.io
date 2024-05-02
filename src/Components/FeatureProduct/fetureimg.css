@@ -1,0 +1,9 @@
+.bgimages:nth-child(1){
+    background-image: url(./f1.jpg);
+}
+.bgimages:nth-child(2){
+    background-image: url(./f2.jpg);
+}
+.bgimages:nth-child(3){
+    background-image: url(./f3.jpg);
+}

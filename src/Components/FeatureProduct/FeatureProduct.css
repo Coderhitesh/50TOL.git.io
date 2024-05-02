@@ -1,0 +1,24 @@
+@media (max-width:870px) {
+    .feature-section .feature-container{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .feature-section .feature-container .same-col{
+        width: 48%;
+    }
+}
+
+@media (max-width:650px) {
+
+    .feature-section .feature-container .same-col{
+        width: 100%;
+        height: 300px;
+    }
+
+    .feature-section .feature-container .same-col .content{
+        width: 95%;
+        height: 40%;
+        opacity: 1;
+    }
+}

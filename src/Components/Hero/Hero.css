@@ -1,0 +1,6 @@
+@media (max-width:700px) {
+
+    .hero-section .hero-container .main-container .content{
+        display: none;
+    }
+}

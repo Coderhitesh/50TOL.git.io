@@ -1,0 +1,115 @@
+.feature-section-second {
+    width: 100%;
+}
+
+.feature-section-second .feature-section-second-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 10px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.feature-section-second .feature-section-second-container .same-col {
+    width: 49%;
+
+    position: relative;
+}
+
+.feature-section-second .feature-section-second-container .same-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature-section-second .feature-section-second-container .same-col .main-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.feature-section-second .feature-section-second-container .same-col .main-content .content {
+    width: 95%;
+    /* height: 32%; */
+    background-color: white;
+    opacity: 0.9;
+    padding: 18px 45px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feature-section-second .feature-section-second-container .same-col .main-content .content h2 {
+    font-size: 33px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.feature-section-second .feature-section-second-container .same-col .main-content .content p {
+    text-align: center;
+    font-weight: 300;
+}
+
+.feature-section-second .feature-section-second-container .same-col .main-content .content .btn-parents {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-section-second .feature-section-second-container .same-col .main-content .content .btn-parents a {
+    padding: 4px 12px;
+    font-weight: 700;
+    background-color: #FDDFEE;
+}
+
+@media (max-width:800px) {
+    
+.feature-section-second .feature-section-second-container {
+    flex-direction: column;
+}
+
+.feature-section-second .feature-section-second-container .same-col {
+    width: 100%;
+}
+    
+}
+
+@media (max-width:770px) {
+    .feature-section-second .feature-section-second-container .same-col {
+
+        height: 500px;
+    }
+    
+    .feature-section-second .feature-section-second-container .same-col img {
+        width: 100%;
+        height: 78%;
+        object-fit: cover;
+    }
+
+    .feature-section-second .feature-section-second-container .same-col .main-content .content .btn-parents {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .feature-section-second .feature-section-second-container .same-col .main-content .content h2 {
+        font-size: 28px;
+    }
+
+    .feature-section-second .feature-section-second-container .same-col .main-content .content {
+        padding: 18px 20px;
+    }
+    
+}

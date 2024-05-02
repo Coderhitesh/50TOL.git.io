@@ -1,0 +1,61 @@
+.AdressHomePage-section{
+    width: 100%;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+
+.AdressHomePage-section .AdressHomePage-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 80px 60px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.AdressHomePage-section .AdressHomePage-container .main-container{
+    width: 35%;
+    height: 250px;
+    background-color: white;
+    opacity: 1;
+    
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10px;
+}
+
+.AdressHomePage-section .AdressHomePage-container .main-container h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.AdressHomePage-section .AdressHomePage-container .main-container p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+@media (max-width:870px) {
+    .AdressHomePage-section .AdressHomePage-container .main-container{
+        width: 50%;
+        height: 250px;
+    }
+}
+
+@media (max-width:750px) {
+    .AdressHomePage-section .AdressHomePage-container .main-container{
+        width: 80%;
+        height: 250px;
+    }
+}
+
+@media (max-width:580px) {
+    .AdressHomePage-section .AdressHomePage-container .main-container{
+        width: 100%;
+        height: 250px;
+    }
+}

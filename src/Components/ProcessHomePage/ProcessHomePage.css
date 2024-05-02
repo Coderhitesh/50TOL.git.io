@@ -1,0 +1,110 @@
+.ProcessHomePage-section{
+    width: 100%;
+    background-image: url(./bg.jpg);
+}
+
+.ProcessHomePage-section .ProcessHomePage-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .header span{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .header p{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .content .same-col{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .content .same-col .img{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .content .same-col .img img{
+    width: 79%;
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .content .same-col p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .btn-parents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.ProcessHomePage-section .ProcessHomePage-container .btn-parents a{
+    padding: 6px 13px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+@media (max-width:650px) {
+
+    .ProcessHomePage-section .ProcessHomePage-container .btn-parents{
+        flex-direction: column;
+        gap: 22px;
+    }
+
+    .ProcessHomePage-section .ProcessHomePage-container .content .same-col{
+        width: 23%;
+    }
+
+    .ProcessHomePage-section .ProcessHomePage-container .content .same-col p{
+        text-align: center;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .ProcessHomePage-section .ProcessHomePage-container .header p{
+        font-weight: 400;
+        font-size: 17px;
+
+        text-align: center;
+    }
+    
+}
