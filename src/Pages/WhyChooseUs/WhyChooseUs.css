@@ -1,0 +1,42 @@
+.WhyChooseUs-section{
+    width: 100%;
+}
+
+.WhyChooseUs-section .WhyChooseUs-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.WhyChooseUs-section .WhyChooseUs-container .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.WhyChooseUs-section .WhyChooseUs-container .heading h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.WhyChooseUs-section .WhyChooseUs-container .main-container{
+    width: 100%;
+}
+
+.WhyChooseUs-section .WhyChooseUs-container .main-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: disc;
+}
+
+@media (max-width:700px) {
+
+    .WhyChooseUs-section .WhyChooseUs-container{
+        padding: 40px 20px;
+    }
+    
+}

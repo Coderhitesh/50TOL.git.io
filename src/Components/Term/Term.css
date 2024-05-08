@@ -1,0 +1,22 @@
+.term-section{
+    width: 100%;
+}
+
+.term-section .term-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    display: fle;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.term-section .term-container .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.term-section .term-container .heading span{
+    font-weight: 700;
+    font-size: 30px;
+}

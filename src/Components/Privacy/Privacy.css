@@ -1,0 +1,57 @@
+.privacy-section{
+    width: 100%;
+}
+
+.privacy-section .privacy-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.privacy-section .privacy-container .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.privacy-section .privacy-container .heading h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.privacy-section .privacy-container .main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.privacy-section .privacy-container .main-container p{
+    font-size: 16px;
+}
+
+.privacy-section .privacy-container .main-container .same-col{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.privacy-section .privacy-container .main-container .same-col h3{
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.privacy-section .privacy-container .main-container .same-col ul{
+    list-style: disc;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width:700px) {
+    .privacy-section .privacy-container{
+        padding: 40px 20px;
+    }
+}

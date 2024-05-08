@@ -1,0 +1,19 @@
+.AboutPage-section{
+    width: 100%;
+}
+
+.AboutPage-section .AboutPage-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.AboutPage-section .AboutPage-container .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.AboutPage-section .AboutPage-container .heading span{
+    font-weight: 700;
+    font-size: 30px;
+}

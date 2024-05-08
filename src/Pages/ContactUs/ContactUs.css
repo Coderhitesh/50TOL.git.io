@@ -17,7 +17,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .contact-section .contact-container .first {
@@ -77,32 +77,58 @@
 
 }
 
-.contact-section .contact-container form {
+.contact-section .contact-container .second{
     display: flex;
     flex-direction: column;
+    gap: 30px;
+}
+
+.contact-section .contact-container .second .heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section .contact-container .second .heading h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact-section .contact-container .second .heading p{
+    text-align: center;
+    font-weight: 400;
+}
+
+.contact-section .contact-container .second form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 20px;
 }
 
-.contact-section .contact-container form .same-field {
+.contact-section .contact-container .second form .same-field {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.contact-section .contact-container form .same-field .left {
+.contact-section .contact-container .second form .same-field .left {
     width: 48%;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.contact-section .contact-container form .same-field .left label {
+.contact-section .contact-container .second form .same-field .left label {
     font-size: 17px;
     font-weight: 700;
 }
 
-.contact-section .contact-container form .same-field .left input {
+.contact-section .contact-container .second form .same-field .left input {
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -112,16 +138,16 @@
     padding-left: 10px;
 }
 
-.contact-section .contact-container form .same-field .right {
+.contact-section .contact-container .second form .same-field .right {
     width: 48%;
 }
 
-.contact-section .contact-container form .same-field .right label {
+.contact-section .contact-container .second form .same-field .right label {
     font-size: 17px;
     font-weight: 700;
 }
 
-.contact-section .contact-container form .same-field .right input {
+.contact-section .contact-container .second form .same-field .right input {
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -131,7 +157,7 @@
     padding-left: 10px;
 }
 
-.contact-section .contact-container form .formessage {
+.contact-section .contact-container .second form .formessage {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -139,12 +165,12 @@
     gap: 3px;
 }
 
-.contact-section .contact-container form .formessage label {
+.contact-section .contact-container .second form .formessage label {
     font-size: 17px;
     font-weight: 700;
 }
 
-.contact-section .contact-container form .formessage textarea {
+.contact-section .contact-container .second form .formessage textarea {
     width: 100%;
     height: 100px;
     border-radius: 4px;
@@ -154,8 +180,43 @@
     padding-left: 10px;
 }
 
-.contact-section .contact-container form .sendbtn{
-    padding: 10px;
-    background-color: #FAE0EE;
+.contact-section .contact-container .second form .sendbtn{
+    padding: 7px 20px;
+    background-color: black;
+    color: white;
     font-weight: 700;
+    transition: all 0.3s linear;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.contact-section .contact-container .second form .sendbtn:hover{
+    background-color: #FAE0EE;
+}
+
+@media (max-width:650px) {
+    .contact-section .contact-container .second form .same-field {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .contact-section .contact-container .second form .same-field .left {
+        width: 100%;
+    }
+    
+    .contact-section .contact-container .second form .same-field .right {
+        width: 100%;
+    }
+
+    .contact-section .contact-container .second .heading h2{
+        font-weight: 700;
+        font-size: 29px;
+        text-align: center;
+    }
+    
+    .contact-section .contact-container .second .heading p{
+        text-align: center;
+        font-weight: 400;
+    }
+    
 }

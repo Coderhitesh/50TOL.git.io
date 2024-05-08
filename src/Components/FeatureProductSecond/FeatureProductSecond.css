@@ -72,7 +72,8 @@
 .feature-section-second .feature-section-second-container .same-col .main-content .content .btn-parents a {
     padding: 4px 12px;
     font-weight: 700;
-    background-color: #FDDFEE;
+    background-color: black;
+    color: white;
 }
 
 @media (max-width:800px) {

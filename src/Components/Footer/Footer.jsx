@@ -16,12 +16,11 @@ function Footer() {
           <div className="same-col same-link-col">
             <h2>SERVICES & GUIDES</h2>
             <ul>
-              <li><Link >Bespoke Design Service</Link></li>
-              <li><Link >Ethical Sourcing</Link></li>
-              <li><Link >Diamond Shape Guide</Link></li>
-              <li><Link >Education & Guides</Link></li>
-              <li><Link >Privacy Policy</Link></li>
-              <li><Link >Terms & Conditions</Link></li>
+              <li><Link to={'/silver-jewellery'}>SILVER JEWELLERY</Link></li>
+              <li><Link to={'/golden-jewellery'}>GOLDEN JEWELLERY</Link></li>
+              <li><Link to={'/diamond-jewellery'}>DIAMOND JEWELLERY</Link></li>
+              {/* <li><Link to={'/contact'}>CONTACT</Link></li> */}
+              
             </ul>
           </div>
           <div className="img same-col">
@@ -30,11 +29,11 @@ function Footer() {
           <div className="same-col same-link-col">
             <h2>CUSTOMER SERVICES</h2>
             <ul>
-              <li><Link>About us</Link></li>
-              <li><Link>The Harper Tait Promise</Link></li>
+              <li><Link to={'/about'}>About us</Link></li>
+              <li><Link to={'/why-choose-us'}>Why Choose Use</Link></li>
               <li><Link to={'/contact'}>Contact us</Link></li>
-              <li><Link>Returns Policy</Link></li>
-              <li><Link>Buy Now Pay Later</Link></li>
+              <li><Link to={'/privacy'}>Privacy Policy</Link></li>
+              <li><Link to={'/term'}>Terms & Conditions</Link></li>
             </ul>
           </div>
         </div>

@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 import logo from './logo.svg'
 
 function Header() {
-    const [isMobModeActive,setIsMobModeActive] = useState(false)
-    const [isSearchActive,setIsSearchActive] = useState(false)
+    const [isMobModeActive, setIsMobModeActive] = useState(false)
+    const [isSearchActive, setIsSearchActive] = useState(false)
 
-    const activeMobMode = () =>{
+    const activeMobMode = () => {
         setIsMobModeActive(!isMobModeActive)
     }
 
-    const deActiveMobMode = () =>{
+    const deActiveMobMode = () => {
         setIsMobModeActive(false)
     }
 
@@ -27,7 +27,7 @@ function Header() {
         <header className='header-section'>
             <div className="header-container">
                 <div className="top-header">
-                    <span>Spread your payments with KLARNA</span>
+                    <span>Spread your payments with 50Tola</span>
                 </div>
                 <div className="mid-header">
                     <div className="left">
@@ -53,10 +53,10 @@ function Header() {
                                 <button>Search</button>
                             </div>
                         </div>
-                        <div className={`logo ${isSearchActive ? 'logo-none' : ''}`} >
+                        <Link to={'/'} className={`logo ${isSearchActive ? 'logo-none' : ''}`} >
                             {/* <img src={logo} alt="" /> */}
                             <h2>50<span>Tola</span></h2>
-                        </div>
+                        </Link>
                         <div className="bag">
                             <i class="ri-user-line"></i>
                             <i class="ri-shopping-bag-line"></i>
@@ -64,13 +64,13 @@ function Header() {
                     </div>
                     <nav className="nav">
                         <ul>
-                            <li><Link>ENGAGEMENT RINGS</Link></li>
-                            <li><Link>WEDDING RINGS</Link></li>
-                            <li><Link>DIAMONDS</Link></li>
-                            <li><Link>DIAMOND JEWELLERY</Link></li>
-                            <li><Link>EDUCATION</Link></li>
+                            <li><Link to={'/silver-jewellery'}>SILVER JEWELLERY</Link></li>
+                            <li><Link to={'/golden-jewellery'}>GOLDEN JEWELLERY</Link></li>
+                            {/* <li><Link>DIAMONDS</Link></li> */}
+                            <li><Link to={'/diamond-jewellery'}>DIAMOND JEWELLERY</Link></li>
+                            <li><Link to={'/why-choose-us'}>WHY CHOOSE US</Link></li>
                             <li><Link>JOURNAL</Link></li>
-                            <li><Link>ABOUT</Link></li>
+                            <li><Link to={'/about'}>ABOUT</Link></li>
                             <li><Link to={'/contact'}>CONTACT</Link></li>
                         </ul>
                     </nav>
@@ -83,16 +83,16 @@ function Header() {
                     <div onClick={deActiveMobMode} className="booking-btn">
                         <span>BOOK A CONSULTATION</span>
                     </div>
+
                     <ul>
-                        <li><Link onClick={deActiveMobMode}>ENGAGEMENT RINGS</Link></li>
-                        <li><Link onClick={deActiveMobMode}>WEDDING RINGS</Link></li>
-                        <li><Link onClick={deActiveMobMode}>DIAMONDS</Link></li>
-                        <li><Link onClick={deActiveMobMode}>DIAMOND JEWELLERY</Link></li>
-                        <li><Link onClick={deActiveMobMode}>EDUCATION</Link></li>
-                        <li><Link onClick={deActiveMobMode}>JOURNAL</Link></li>
-                        <li><Link onClick={deActiveMobMode}>ABOUT</Link></li>
-                        <li><Link onClick={deActiveMobMode}>CONTACT</Link></li>
-                        <li><Link onClick={deActiveMobMode}>MY ACCOUNT</Link></li>
+                        <li><Link onClick={deActiveMobMode} to={'/silver-jewellery'}>SILVER JEWELLERY</Link></li>
+                        <li><Link onClick={deActiveMobMode} to={'/golden-jewellery'}>GOLDEN JEWELLERY</Link></li>
+                        {/* <li><Link>DIAMONDS</Link></li> */}
+                        <li><Link onClick={deActiveMobMode} to={'/diamond-jewellery'}>DIAMOND JEWELLERY</Link></li>
+                        <li><Link onClick={deActiveMobMode} to={'/why-choose-us'}>WHY CHOOSE US</Link></li>
+                        <li><Link>JOURNAL</Link></li>
+                        <li><Link onClick={deActiveMobMode} to={'/about'}>ABOUT</Link></li>
+                        <li><Link onClick={deActiveMobMode} to={'/contact'}>CONTACT</Link></li>
                     </ul>
                     <div className="social-link">
                         <div onClick={deActiveMobMode} className="link-icon">

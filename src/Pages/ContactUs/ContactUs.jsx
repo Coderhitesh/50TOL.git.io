@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ContactUs.css'
 import left from './left.webp'
+import AdressHomePage from '../../Components/AdressHomePage/AdressHomePage'
 
 function ContactUs() {
+    useEffect(()=>{
+        window.scrollTo({
+            top : 0,
+            behavior: 'smooth'
+        })
+    },[])
     return (
         <section className='contact-section'>
             <div className="bg"></div>
@@ -19,6 +26,11 @@ function ContactUs() {
                         <p><span>Harper Tait: </span>Suite 26, New House, 67-68 Hatton Garden, London, EC1N 8JY</p>
                     </div>
                 </div>
+                <div className="second">
+                    <div className="heading">
+                        <h2>Schedule a Consultation</h2>
+                        <p>Fill in the form below to book an online or in-store appointment with one of our diamond and jewellery experts. We will walk you through our bespoke design process, guide you on our product range or help you explore your ideas to create the perfect piece.</p>
+                    </div>
                 <form action="">
                     <div className="same-field">
                         <div className="left">
@@ -44,8 +56,12 @@ function ContactUs() {
                         <label htmlFor="message">Message*</label>
                         <textarea name="message" id="msg"></textarea>
                     </div>
-                    <button type='submit' className='sendbtn'>Send Message</button>
+                    <button type='submit' className='sendbtn'>Submit</button>
                 </form>
+                </div>
+                <div className="third">
+                    <AdressHomePage />
+                </div>
             </div>
         </section>
     )

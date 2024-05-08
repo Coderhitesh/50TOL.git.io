@@ -16,7 +16,7 @@ function Hero() {
                         <div className=' w-full h-[30%] flex justify-center gap-1 items-center flex-col'>
                             <h2 className=' text-6xl font-bold'>Jewellery & Diamond Experts</h2>
                             <p className=' text-xl font-semibold'>Harper Tait are renowned for their beautiful designs, exquisite diamonds and their unique design service.</p>
-                            <a className=' px-4 py-1 bg-[#FAE0EE]' href="">View ENGAGEMENT RINGS</a>
+                            <a className=' px-4 py-1 bg-[black] text-white' href="">VIEW ENGAGEMENT RINGS</a>
                         </div>
                     </div>
                 </div>

@@ -9,6 +9,9 @@ import ProcessHomePage from '../../Components/ProcessHomePage/ProcessHomePage'
 import AdressHomePage from '../../Components/AdressHomePage/AdressHomePage'
 import GetInTouch from '../../Components/GetInTouch/GetInTouch'
 import Footer from '../../Components/Footer/Footer'
+import SilverCategoryHome from '../../Components/SilverCategoryHome/SilverCategoryHome'
+import GoldCategoryHome from '../../Components/GoldCategoryHome/GoldCategoryHome'
+import DiamondCategoryHome from '../../Components/DiamondCategoryHome/DiamondCategoryHome'
 
 function Home() {
   return (
@@ -18,6 +21,9 @@ function Home() {
       <AboutHomePage />
       <TopProduct />
       <ProcessHomePage />
+      <SilverCategoryHome />
+      <GoldCategoryHome />
+      <DiamondCategoryHome />
       <FeatureProductSecond />
       <AdressHomePage />
       <GetInTouch />

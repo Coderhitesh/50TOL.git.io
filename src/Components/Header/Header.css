@@ -17,12 +17,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FAE0EE;
+    /* background-color: #FAE0EE; */
+    background-color: black;
 }
 
 .header-section .header-container .top-header span{
     font-weight: 600;
-    color: #ba0063;
+    /* color: #ba0063; */
+    color: white;
 }
 
 .header-section .header-container .mid-header{
@@ -106,8 +108,8 @@
     display: none;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 30px;
+    width: 50vw;
+    height: 38px;
 
     overflow: hidden;
 }
@@ -125,7 +127,7 @@
 .header-section .header-container .bottom-header .top .search .search-box button{
     width: 25%;
     height: 100%;
-    background-color: #1877F2;
+    background-color: black;
     border: none;
     color: white;
     cursor: pointer;
@@ -156,7 +158,8 @@
 
 .header-section .header-container .bottom-header .top .logo h2 span{
     /* color: gold; */
-    color: #BA006C;
+    /* color: #BA006C; */
+    color: gold;
 }
 
 .header-section .header-container .bottom-header .top .logo img{
@@ -245,8 +248,9 @@
     .header-section .header-container .mob-nav{
         height: 100vh;
         width: 74vw;
-        background-color: white;
-        position: absolute;
+        /* background-color: white; */
+        background-color: black;
+        position: fixed;
         left: -100%;
         top: 0%;
         z-index: 99999;
@@ -274,12 +278,14 @@
     
     .header-section .header-container .mob-nav .menu-close i{
         font-size: 30px;
+        color: white;
     }
     
     .header-section .header-container .mob-nav .booking-btn{
         width: 100%;
         padding: 10px 0px 10px 10px;
-        background-color: black;
+        /* background-color: black; */
+        background-color: #fa7e1e;
         color: white;
         border-radius: 5px;
         display: flex;
@@ -290,10 +296,12 @@
     .header-section .header-container .mob-nav .booking-btn span{
         font-size: 14px;
         font-weight: 600;
+        /* color: white; */
     }
     
     .header-section .header-container .mob-nav ul{
         width: 100%;
+        color: white;
     }
     
     .header-section .header-container .mob-nav ul li{
