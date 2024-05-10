@@ -12,6 +12,7 @@ import SinglePage from './Components/SinglePage/SinglePage'
 import WhyChooseUs from './Pages/WhyChooseUs/WhyChooseUs'
 import Privacy from './Components/Privacy/Privacy'
 import Term from './Components/Term/Term'
+import Cart from './Components/Cart/Cart'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route  path="/why-choose-us" element={<WhyChooseUs />}/>
         <Route  path="/privacy" element={<Privacy />}/>
         <Route  path="/term" element={<Term />}/>
+        <Route  path="/cart" element={<Cart />}/>
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -58,8 +58,10 @@ function Header() {
                             <h2>50<span>Tola</span></h2>
                         </Link>
                         <div className="bag">
-                            <i class="ri-user-line"></i>
+                            <Link to={''}><i class="ri-user-line"></i></Link>
+                            <Link to={'/cart'} className="bag">
                             <i class="ri-shopping-bag-line"></i>
+                            </Link>
                         </div>
                     </div>
                     <nav className="nav">
@@ -69,7 +71,7 @@ function Header() {
                             {/* <li><Link>DIAMONDS</Link></li> */}
                             <li><Link to={'/diamond-jewellery'}>DIAMOND JEWELLERY</Link></li>
                             <li><Link to={'/why-choose-us'}>WHY CHOOSE US</Link></li>
-                            <li><Link>JOURNAL</Link></li>
+                            {/* <li><Link>JOURNAL</Link></li> */}
                             <li><Link to={'/about'}>ABOUT</Link></li>
                             <li><Link to={'/contact'}>CONTACT</Link></li>
                         </ul>

@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import bg from './bg.jpg'
 import './AboutPage.css'
 
 function AboutPage() {
+  useEffect(()=>{
+    window.scrollTo({
+      top : 0,
+      behavior: "smooth"
+    })
+  },[])
   return (
     <section className='AboutPage-section'>
         <div className="bg">
